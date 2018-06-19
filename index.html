@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <meta name="description" content="Frequent Phrases Application">
+    <meta name="author" content="Diksha Sach">
+    <title>Frequent Phrases</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
-  <body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
     <h1 class="title">Find Frequent Phrases</h1>
     <form id="myform">
-      <fieldset>
-        <textarea name='textEntered' id='textEntered' />The quick brown fox jumped over the lazy dog. The lazy dog, peeved to be labeled lazy, jumped over a snoring turtle. In retaliation the quick brown fox jumped over ten snoring turtles.</textarea>
-        <button type='submit' class="bttn">Enter</button>
-      </fieldset>
+        <fieldset>
+            <textarea name='textEntered' id='textEntered'>The quick brown fox jumped over the lazy dog. The lazy dog, peeved to be labeled lazy, jumped over a snoring turtle. In retaliation the quick brown fox jumped over ten snoring turtles.</textarea>
+            <button type='submit' class="bttn">Enter</button>
+        </fieldset>
     </form>
-    <div class="frequent-phrases-container"> <span class="frequent-phrases-title">The most frequent phrases are: </span> <div class="frequent-phrases"></div></div>
-    <div class="results-container"> <span class="results-title">Original Text:</span> <div id="results"> </div> </div>
+    <div class="frequent-phrases-container"> <span class="frequent-phrases-title">The most frequent phrases are: </span>
+        <div class="frequent-phrases"></div>
+    </div>
+    <div class="results-container"> <span class="results-title">Original Text:</span>
+        <div id="results"> </div>
+    </div>
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
